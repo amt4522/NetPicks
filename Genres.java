@@ -19,7 +19,7 @@ public class Genres implements Initializable {
 
     // When this method is called, it'll change scene to Home
     public void homeBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("NPHome.fxml"));
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/NPHome.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information
@@ -31,7 +31,7 @@ public class Genres implements Initializable {
 
     // When this method is called, it'll change scene to Preferences
     public void backBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("Preferences.fxml"));
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/Preferences.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information

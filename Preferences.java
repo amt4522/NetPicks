@@ -21,7 +21,7 @@ public class Preferences implements Initializable {
 
     // When this method is called, it'll change scene to Home
     public void homeBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("NPHome.fxml"));
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/NPHome.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information
@@ -33,7 +33,7 @@ public class Preferences implements Initializable {
 
     // When this method is called, it'll change scene to Genres
     public void genresBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("Genres.fxml"));
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/Genres.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information
@@ -45,7 +45,7 @@ public class Preferences implements Initializable {
 
     // When this method is called, it'll change scene to Ratings
     public void ratingsBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("Ratings.fxml"));
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/Ratings.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information

@@ -29,7 +29,7 @@
             <Font name="Arial Rounded MT Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="83.0" layoutY="380.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #a2a9a2;" text="Join Watch Party" textFill="WHITE">
+      <Button layoutX="83.0" layoutY="380.0" mnemonicParsing="false" onAction="#joinPartyBtnPushed" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #a2a9a2;" text="Join Watch Party" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="16.0" />
          </font>

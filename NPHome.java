@@ -26,7 +26,18 @@ public class NPHome implements Initializable {
 
     // When this method is called, it'll change scene to Preferences
     public void preferencesBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("Preferences.fxml"));
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/Preferences.fxml"));
+        Scene mainScene = new Scene(mainPg);
+
+        // Get stage information
+        Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+
+        window.setScene(mainScene);
+        window.show();
+    }
+
+    public void joinPartyBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/JoinParty.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information
