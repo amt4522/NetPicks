@@ -20,7 +20,7 @@ public class Pick2 implements Initializable {
 
     }
 
-    public void nextButton(javafx.event.ActionEvent actionEvent) throws IOException {
+    public void nextBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
         Parent mainPg = FXMLLoader.load(getClass().getResource("Pick3.fxml"));
         Scene mainScene = new Scene(mainPg);
 

@@ -23,7 +23,7 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button layoutY="5.0" mnemonicParsing="false" onAction="#homeBtnPushed" style="-fx-background-color: transparent;">
+                        <Button layoutY="5.0" mnemonicParsing="false" onAction="#backBtnPushed" style="-fx-background-color: transparent;">
                             <graphic>
                                 <ImageView fitHeight="28.0" fitWidth="32.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
                                     <image>
