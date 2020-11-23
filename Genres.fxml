@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #f4d6be;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Genres">
+   <children>
+      <ButtonBar prefHeight="40.0" prefWidth="335.0" style="-fx-background-color: #ca936a;">
+         <buttons>
+            <AnchorPane prefHeight="40.0" prefWidth="335.0">
+               <children>
+                  <Button layoutY="8.0" mnemonicParsing="false" onAction="#backBtnPushed" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="28.0" fitWidth="32.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@ClipartKey_3072880.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="257.0" mnemonicParsing="false" onAction="#homeBtnPushed" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@pngaaa.com-1257227.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </buttons>
+      </ButtonBar>
+      <Text fill="WHITE" layoutX="88.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N E T P I C K S">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="130.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Account">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="103.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genre Options">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="87.0" layoutY="171.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #a3a8a2;" text="Action" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="216.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #d3b09a;" text="Comedy" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="406.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #758793;" text="Documentary" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="88.0" layoutY="264.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #cd9c8b;" text="Thriller" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="88.0" layoutY="497.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #cb9d79;" text="Anime" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="450.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #cbaeaa;" text="Rom Com" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="312.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #c1c9cc;" text="Horror" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="360.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="159.0" style="-fx-background-color: #5f758d;" text="Sci-Fi" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
