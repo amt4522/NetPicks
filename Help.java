@@ -42,5 +42,19 @@ public class Help implements Initializable {
     }
 
 
+    public void goToFAQ(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent groupMemberPg = FXMLLoader.load(getClass().getResource("/FAQ.fxml"));
+        Scene mainScene = new Scene(groupMemberPg);
+
+        // Get stage information
+        Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+
+        window.setScene(mainScene);
+        window.show();
+    }
+
+
+
+
 
 }
