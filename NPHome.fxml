@@ -34,5 +34,10 @@
             <Font name="Arial Rounded MT Bold" size="16.0" />
          </font>
       </Button>
+      <Button layoutX="83.0" layoutY="543.0" mnemonicParsing="false" onAction="#helpBtnPushed" prefHeight="37.0" prefWidth="182.0" style="-fx-background-color: #ff4081;" text="Help" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

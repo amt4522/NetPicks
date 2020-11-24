@@ -57,5 +57,16 @@ public class NPHome implements Initializable {
         window.show();
     }
 
+    public void helpBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/Help.fxml"));
+        Scene mainScene = new Scene(mainPg);
+
+        // Get stage information
+        Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+
+        window.setScene(mainScene);
+        window.show();
+    }
+
 
 }
