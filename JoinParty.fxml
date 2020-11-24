@@ -48,7 +48,7 @@
             </font>
         </Text>
         <TextField layoutY="286.0" prefHeight="43.0" prefWidth="335.0" />
-        <Text fill="WHITE" layoutX="79.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="Enter Room Code:">
+        <Text fill="WHITE" layoutX="79.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="Enter Watch Party:">
             <font>
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>

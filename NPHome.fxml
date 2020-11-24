@@ -19,17 +19,17 @@
             <Font name="Arial Rounded MT Bold" size="17.0" />
          </font>
       </Text>
-      <Button layoutX="83.0" layoutY="262.0" mnemonicParsing="false" onAction="#preferencesBtnPushed" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #cbaeaa;" text="Preferences" textFill="WHITE">
+      <Button layoutX="83.0" layoutY="379.0" mnemonicParsing="false" onAction="#preferencesBtnPushed" prefHeight="37.0" prefWidth="182.0" style="-fx-background-color: #cbaeaa;" text="Movie Preferences" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="83.0" layoutY="322.0" mnemonicParsing="false" onAction="#newWatchPartyBtnPushed" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #cb9773;" text="New Watch Party" textFill="WHITE">
+      <Button layoutX="83.0" layoutY="326.0" mnemonicParsing="false" onAction="#newWatchPartyBtnPushed" prefHeight="37.0" prefWidth="182.0" style="-fx-background-color: #cb9773;" text="New Watch Party" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="16.0" />
          </font>
       </Button>
-      <Button layoutX="83.0" layoutY="380.0" mnemonicParsing="false" onAction="#joinPartyBtnPushed" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #a2a9a2;" text="Join Watch Party" textFill="WHITE">
+      <Button layoutX="83.0" layoutY="271.0" mnemonicParsing="false" onAction="#joinPartyBtnPushed" prefHeight="37.0" prefWidth="182.0" style="-fx-background-color: #a2a9a2;" text="Join Watch Party" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="16.0" />
          </font>
