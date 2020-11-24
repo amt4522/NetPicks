@@ -36,7 +36,7 @@ public class NPHome implements Initializable {
     }
 
     public void newWatchPartyBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("/JoinParty.fxml"));
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/GroupMovieEmpty.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information
