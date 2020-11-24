@@ -46,23 +46,23 @@
                 <Font name="Arial Rounded MT Bold" size="13.0" />
             </font>
         </Text>
-      <Button layoutX="83.0" layoutY="144.0" mnemonicParsing="false"  prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #cbaeaa; -fx-background-radius: 100;" text="Kevin" textFill="WHITE">
+      <Button layoutX="83.0" layoutY="144.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #cbaeaa; -fx-background-radius: 100;" text="Kevin" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="83.0" layoutY="208.0" mnemonicParsing="false"  prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #cbaeaa; -fx-background-radius: 100;" text="Adriana" textFill="WHITE">
+      <Button layoutX="83.0" layoutY="208.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="169.0" style="-fx-background-color: #cbaeaa; -fx-background-radius: 100;" text="Adriana" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="17.0" />
          </font>
       </Button>
-      <Button contentDisplay="RIGHT" layoutX="83.0" layoutY="269.0" mnemonicParsing="false"  prefHeight="36.0" prefWidth="169.0" style="-fx-background-color: #cbaeaa; -fx-background-radius: 100;" text="Dawid" textFill="WHITE">
+      <Button contentDisplay="RIGHT" layoutX="83.0" layoutY="269.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="169.0" style="-fx-background-color: #cbaeaa; -fx-background-radius: 100;" text="Dawid" textFill="WHITE">
          <font>
             <Font name="Arial Rounded MT Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="122.0" layoutY="330.0" mnemonicParsing="false" onAction="#addNewMembersBtnPushed" prefHeight="88.0" prefWidth="91.0" style="-fx-background-radius: 100; -fx-background-color: #7777ff;" textAlignment="RIGHT" />
-          <ImageView fitHeight="54.0" fitWidth="48.0" layoutX="144.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true" >
+      <Button layoutX="122.0" layoutY="330.0" mnemonicParsing="false" onAction="#addNewMembersBtnPushed" prefHeight="88.0" prefWidth="91.0" style="-fx-background-radius: 100; -fx-background-color: #5f758d;" textAlignment="RIGHT" />
+          <ImageView fitHeight="54.0" fitWidth="48.0" layoutX="144.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
              <image>
                 <Image url="@images/AddPerson.png" />
              </image>

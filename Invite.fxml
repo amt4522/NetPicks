@@ -25,7 +25,7 @@
                                 </ImageView>
                             </graphic>
                         </Button>
-                        <Button layoutY="5.0" mnemonicParsing="false" onAction="#homeBtnPushed" style="-fx-background-color: transparent;">
+                        <Button layoutY="5.0" mnemonicParsing="false" onAction="#backBtnPushed" style="-fx-background-color: transparent;">
                             <graphic>
                                 <ImageView fitHeight="28.0" fitWidth="32.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
                                     <image>
@@ -57,7 +57,7 @@
                 <Font size="23.0" />
             </font>
         </Text>
-        <Button layoutX="81.0" layoutY="268.0" mnemonicParsing="false" onAction="#genresBtnPushed" opacity="0.95" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #8B008B;" text="Copy to Clipboard" textFill="WHITE">
+        <Button layoutX="81.0" layoutY="268.0" mnemonicParsing="false" opacity="0.95" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #8B008B;" text="Copy to Clipboard" textFill="WHITE">
             <font>
                 <Font size="17.0" />
             </font>
@@ -72,7 +72,7 @@
             <Font size="23.0" />
          </font>
       </Text>
-      <Button layoutX="78.0" layoutY="474.0" mnemonicParsing="false" onAction="#genresBtnPushed" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #8B008B;" text="Copy to Clipboard" textFill="WHITE">
+      <Button layoutX="78.0" layoutY="474.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #8B008B;" text="Copy to Clipboard" textFill="WHITE">
          <font>
             <Font size="17.0" />
          </font>

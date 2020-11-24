@@ -51,7 +51,7 @@
                 <Font size="23.0" />
             </font>
         </Text>
-        <Button layoutX="80.0" layoutY="525.0" mnemonicParsing="false" onAction="#genresBtnPushed" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #8B008B;" text="Next Pick" textFill="WHITE">
+        <Button layoutX="80.0" layoutY="525.0" mnemonicParsing="false" onAction="#nextBtnPushed" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #5f758d;" text="Next Pick" textFill="WHITE">
             <font>
                 <Font size="22.0" />
             </font>

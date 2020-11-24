@@ -51,7 +51,7 @@
                 <Font name="Arial Rounded MT Bold" size="17.0" />
             </font>
         </Button>
-        <Button layoutX="123.0" layoutY="200.0" mnemonicParsing="false" onAction="#addNewMembersBtnPushed" prefHeight="88.0" prefWidth="91.0" style="-fx-background-radius: 100; -fx-background-color: #7777ff;" textAlignment="RIGHT" />
+        <Button layoutX="123.0" layoutY="200.0" mnemonicParsing="false" onAction="#addNewMembersBtnPushed" prefHeight="88.0" prefWidth="91.0" style="-fx-background-radius: 100; -fx-background-color: #5f758d;" textAlignment="RIGHT" />
         <ImageView fitHeight="54.0" fitWidth="48.0" layoutX="144.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@images/AddPerson.png" />
