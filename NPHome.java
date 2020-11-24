@@ -1,4 +1,3 @@
-package sample;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -27,6 +26,17 @@ public class NPHome implements Initializable {
     // When this method is called, it'll change scene to Preferences
     public void preferencesBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
         Parent mainPg = FXMLLoader.load(getClass().getResource("/Preferences.fxml"));
+        Scene mainScene = new Scene(mainPg);
+
+        // Get stage information
+        Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+
+        window.setScene(mainScene);
+        window.show();
+    }
+
+    public void newWatchPartyBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent mainPg = FXMLLoader.load(getClass().getResource("/JoinParty.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information

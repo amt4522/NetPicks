@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #d8d5d0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Preferences">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #d8d5d0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pick2">
     <children>
         <ButtonBar prefHeight="40.0" prefWidth="335.0" style="-fx-background-color: #a2a9a2;">
             <buttons>
@@ -51,7 +51,7 @@
                 <Font size="23.0" />
             </font>
         </Text>
-        <Button layoutX="80.0" layoutY="525.0" mnemonicParsing="false" onAction="#nextBtnPushed" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #5f758d;" text="Next Pick" textFill="WHITE">
+        <Button layoutX="80.0" layoutY="525.0" mnemonicParsing="false" onAction="#nextBtnPushed" prefHeight="43.0" prefWidth="176.0" style="-fx-background-color: #8B008B;" text="Next Pick" textFill="WHITE">
             <font>
                 <Font size="22.0" />
             </font>

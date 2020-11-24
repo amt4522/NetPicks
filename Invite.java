@@ -1,4 +1,3 @@
-package sample;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -21,7 +20,7 @@ public class Invite implements Initializable {
     }
 
     public void homeBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("NPHome.fxml")); // THIS WILL CHANGE
+        Parent mainPg = FXMLLoader.load(getClass().getResource("NPHome.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information
@@ -32,7 +31,7 @@ public class Invite implements Initializable {
     }
 
     public void backBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent mainPg = FXMLLoader.load(getClass().getResource("NPHome.fxml")); // THIS WILL CHANGE
+        Parent mainPg = FXMLLoader.load(getClass().getResource("InviteMembers.fxml"));
         Scene mainScene = new Scene(mainPg);
 
         // Get stage information
