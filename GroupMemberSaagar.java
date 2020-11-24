@@ -53,7 +53,7 @@ public class GroupMemberSaagar implements Initializable {
 
 
     public void findMovieBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent groupMemberPg = FXMLLoader.load(getClass().getResource("/JoinParty.fxml"));
+        Parent groupMemberPg = FXMLLoader.load(getClass().getResource("/Pick1.fxml"));
         Scene mainScene = new Scene(groupMemberPg);
 
         // Get stage information

@@ -1,4 +1,3 @@
-package sample;
 
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;

@@ -75,8 +75,8 @@ public class InviteMembers implements Initializable {
     }
 
 
-    public void findMovieBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent groupMemberPg = FXMLLoader.load(getClass().getResource("/JoinParty.fxml"));
+    public void inviteNewUserBtnPushed(javafx.event.ActionEvent actionEvent) throws IOException {
+        Parent groupMemberPg = FXMLLoader.load(getClass().getResource("/invite.fxml"));
         Scene mainScene = new Scene(groupMemberPg);
 
         // Get stage information

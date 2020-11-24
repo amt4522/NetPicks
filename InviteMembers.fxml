@@ -61,7 +61,7 @@
                 <Font name="Arial Rounded MT Bold" size="17.0" />
             </font>
         </Button>
-        <Button layoutX="82.0" layoutY="522.0" mnemonicParsing="false" onAction="#findMovieBtnPushed" prefHeight="54.0" prefWidth="173.0" style="-fx-background-color: #a2a9a2; -fx-background-radius: 100;" text="Find Movie" textFill="WHITE">
+        <Button layoutX="82.0" layoutY="522.0" mnemonicParsing="false" onAction="#inviteNewUserBtnPushed" prefHeight="54.0" prefWidth="173.0" style="-fx-background-color: #a2a9a2; -fx-background-radius: 100;" text="Invite New User" textFill="WHITE">
             <font>
                 <Font name="Arial Rounded MT Bold" size="16.0" />
             </font>
